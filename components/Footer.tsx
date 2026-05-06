@@ -13,7 +13,7 @@ export default function Footer() {
             href="mailto:jyangccbb13@gmail.com"
             className="text-xs text-[#4a6080] hover:text-[#8fa4be] transition-colors font-mono"
           >
-            contact@atlix.ai
+            dhan6663@usc.edu
           </a>
           <p className="text-xs text-[#344d68] font-mono">© 2026 Atlix</p>
         </div>
