@@ -1,24 +1,24 @@
 const capabilities = [
   {
     number: "01",
-    title: "Narrative Clustering",
+    title: "See What Your Campaign Needs to Address",
     description:
-      "See which communities are forming around an idea and how concentrated they are across your constituents and districts. Not keyword tracking — narrative tracking.",
-    tag: "Clustering",
+      "Surface the issues gaining the most traction among your constituents right now. Know what your district cares about before you step on stage.",
+    tag: "Discovery",
   },
   {
     number: "02",
-    title: "Cross-Platform Geographic Spread",
+    title: "Ask the Chatbot What to Focus On",
     description:
-      "Watch a narrative move from a regional forum to a national platform, filtered to the district or region you care about. Real-time, not weekly reports.",
-    tag: "Geographic",
+      "Query your district's data directly. Ask what issues are gaining ground with young voters, where sentiment is shifting, or what your opponent hasn't addressed. The chatbot pinpoints where to concentrate your campaign's energy.",
+    tag: "Chatbot",
   },
   {
     number: "03",
-    title: "Polarization Index",
+    title: "Walk Away with a Playbook",
     description:
-      "Measure whether two sides are hardening or whether the conversation among constituents is still diffuse. Week-over-week trending with district-level resolution.",
-    tag: "Polarization",
+      "Get talking points grounded in what's historically resonated on each issue, then turn them into ready-made campaign materials: social posts, email templates, and ad copy, ready to distribute in one click.",
+    tag: "Action",
   },
 ];
 
@@ -27,11 +27,11 @@ export default function Capabilities() {
     <section className="py-24 px-6 border-t border-[#1e3054]">
       <div className="max-w-6xl mx-auto">
         <div className="accent-line" />
-        <p className="text-xs uppercase tracking-[0.2em] text-[#4a6080] font-mono mb-4">
-          What Atlix Does
+        <p className="text-xs uppercase tracking-[0.2em] text-[#6e8fac] font-mono mb-4">
+          What GenAtlix Does
         </p>
         <h2 className="text-2xl md:text-3xl font-semibold text-[#eef1f6] mb-16 leading-snug max-w-xl">
-          Three capabilities. No noise.
+          From issue discovery to campaign-ready materials
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

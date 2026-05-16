@@ -1,18 +1,18 @@
 const principles = [
   {
-    title: "An information tool, not a recommendation engine.",
+    title: "Insights, not just data.",
     description:
-      "Atlix surfaces what's happening. Policy decisions stay with policymakers. The platform shows you the shape of the conversation — it does not tell you what to do about it.",
+      "GenAtlix doesn't just show you what's happening, it tells you what it means for your campaign. Surface which issues are gaining momentum with young voters, how sentiment is shifting in your district, and where to focus your message next.",
   },
   {
     title: "Geographic precision.",
     description:
-      "Narratives filtered by district, region, or country — because national sentiment is not constituent sentiment. Your field reps see the same geography you're monitoring.",
+      "Narratives filtered with geofencing by district, region, or country. Your field reps see the same geography you're monitoring.",
   },
   {
     title: "Bias-aware by design.",
     description:
-      "Online discourse skews. Atlix is transparent about sample composition and provides comparative context, not just raw signal. We surface the shape of the gap, not just the signal.",
+      "Online discourse skews. GenAtlix is transparent about sample composition and provides comparative context, not just raw signal.",
   },
 ];
 
@@ -23,11 +23,11 @@ export default function PolicyWorkflows() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
           <div>
             <div className="accent-line" />
-            <p className="text-xs uppercase tracking-[0.2em] text-[#4a6080] font-mono mb-4">
-              Built for Policy Workflows
+            <p className="text-xs uppercase tracking-[0.2em] text-[#6e8fac] font-mono mb-4">
+              How It Works
             </p>
             <h2 className="text-2xl md:text-3xl font-semibold text-[#eef1f6] leading-snug">
-              Designed for institutional trust, not just speed.
+              Built to be honest about what the data can and can't tell you.
             </h2>
           </div>
           <div className="space-y-8">

@@ -4,27 +4,26 @@ export default function Problem() {
       <div className="max-w-6xl mx-auto">
         <div className="max-w-2xl">
           <div className="accent-line" />
-          <p className="text-xs uppercase tracking-[0.2em] text-[#4a6080] font-mono mb-4">
+          <p className="text-xs uppercase tracking-[0.2em] text-[#6e8fac] font-mono mb-4">
             The Problem
           </p>
           <h2 className="text-2xl md:text-3xl font-semibold text-[#eef1f6] mb-8 leading-snug">
-            The infrastructure built to respond was designed for a slower world.
+            Young voters are the loudest they've ever been, yet the hardest to
+            hear.
           </h2>
           <div className="space-y-5 text-[#8fa4be] leading-relaxed">
             <p>
-              Narratives move from fringe forums to national headlines in days —
-              sometimes hours. The tools institutions rely on to track and respond
-              to them — polling, consulting reports, manual media reading — were
-              built for news cycles measured in weeks. The gap between narrative
-              speed and institutional response time is structural, and it is
-              growing.
+              18-34 year olds are politically active, but they don't answer
+              surveys or pick up the phone. They're on Reddit and X, talking
+              openly about the candidates and issues that affect them. That
+              signal exists. Most campaigns just aren't listening to it.
             </p>
             <p>
-              The signal for January 6th was visible for months across platforms.
-              No system existed to read it at scale, correlate it across sources,
-              or surface it to the people whose job it was to respond. By the time
-              anyone had a complete picture, it was too late. That gap has not been
-              closed.
+              Traditional listening tools were built for an older electorate.
+              They miss the platforms where young voters actually communicate,
+              can't filter out bots and coordinated noise, and can't tell you
+              what's real constituent sentiment versus what someone is trying to
+              make it look like. Local campaigns run blind as a result.
             </p>
           </div>
         </div>

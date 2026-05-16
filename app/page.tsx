@@ -1,7 +1,6 @@
 import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
 import Problem from "@/components/Problem";
-import WhyNotSolved from "@/components/WhyNotSolved";
 import Capabilities from "@/components/Capabilities";
 import PolicyWorkflows from "@/components/PolicyWorkflows";
 import WhoItsFor from "@/components/WhoItsFor";
@@ -15,7 +14,6 @@ export default function Home() {
       <Nav />
       <Hero />
       <Problem />
-      <WhyNotSolved />
       <Capabilities />
       <PolicyWorkflows />
       <WhoItsFor />

@@ -1,72 +1,58 @@
 "use client";
 
-import { useState } from "react";
-import InvestorModal from "./InvestorModal";
-
 export default function Hero() {
-  const [modalOpen, setModalOpen] = useState(false);
-
   return (
-    <>
-      <section className="relative min-h-screen flex flex-col justify-center pt-20 pb-24 px-6 overflow-hidden">
-        {/* Background grid */}
-        <div
-          className="absolute inset-0 pointer-events-none"
-          style={{
-            backgroundImage:
-              "linear-gradient(rgba(30,48,84,0.25) 1px, transparent 1px), linear-gradient(90deg, rgba(30,48,84,0.25) 1px, transparent 1px)",
-            backgroundSize: "60px 60px",
-          }}
-        />
-        {/* Radial glow */}
-        <div
-          className="absolute inset-0 pointer-events-none"
-          style={{
-            background:
-              "radial-gradient(ellipse 70% 50% at 50% 40%, rgba(13,21,38,0) 0%, rgba(8,14,26,0.85) 100%)",
-          }}
-        />
+    <section className="relative min-h-screen flex flex-col justify-center pt-20 pb-24 px-6 overflow-hidden">
+      {/* Background grid */}
+      <div
+        className="absolute inset-0 pointer-events-none"
+        style={{
+          backgroundImage:
+            "linear-gradient(rgba(30,48,84,0.25) 1px, transparent 1px), linear-gradient(90deg, rgba(30,48,84,0.25) 1px, transparent 1px)",
+          backgroundSize: "60px 60px",
+        }}
+      />
+      {/* Radial glow */}
+      <div
+        className="absolute inset-0 pointer-events-none"
+        style={{
+          background:
+            "radial-gradient(ellipse 70% 50% at 50% 40%, rgba(13,21,38,0) 0%, rgba(8,14,26,0.85) 100%)",
+        }}
+      />
 
-        <div className="relative max-w-6xl mx-auto w-full">
-          <div className="max-w-3xl">
-            <p className="fade-up fade-up-delay-1 text-xs uppercase tracking-[0.2em] text-[#c8922a] font-mono mb-6">
-              Narrative Intelligence Platform
-            </p>
-            <h1 className="fade-up fade-up-delay-2 text-4xl md:text-5xl lg:text-6xl font-semibold leading-tight tracking-tight text-[#eef1f6] mb-6">
-              Narrative intelligence for the people who have to respond.
-            </h1>
-            <p className="fade-up fade-up-delay-3 text-lg text-[#8fa4be] leading-relaxed mb-10 max-w-2xl">
-              Atlix tracks how political and cultural narratives cluster, spread,
-              and polarize — in real time, across platforms, filtered by
-              geography. Built for policymakers, NGOs, and institutional comms
-              teams.
-            </p>
-            <div className="fade-up fade-up-delay-4 flex flex-col sm:flex-row gap-4">
-              <a
-                href="#demo"
-                className="inline-flex items-center justify-center px-6 py-3 bg-[#c8922a] hover:bg-[#d9a84a] text-[#05090f] font-medium text-sm transition-colors"
-              >
-                Request a Demo
-              </a>
-              <button
-                onClick={() => setModalOpen(true)}
-                id="investors"
-                className="inline-flex items-center justify-center px-6 py-3 border border-[#1e3054] hover:border-[#2a4570] text-[#8fa4be] hover:text-[#dde3ed] text-sm transition-colors"
-              >
-                For Investors →
-              </button>
-            </div>
-          </div>
-
-          {/* Dashboard mock */}
-          <div className="mt-20 fade-up fade-up-delay-4">
-            <DashboardMock />
+      <div className="relative max-w-6xl mx-auto w-full">
+        <div className="max-w-3xl">
+          <p className="fade-up fade-up-delay-1 text-xs uppercase tracking-[0.2em] text-[#c8922a] font-mono mb-6">
+            Narrative Intelligence Platform
+          </p>
+          <h1 className="fade-up fade-up-delay-2 text-4xl md:text-5xl lg:text-6xl font-semibold leading-tight tracking-tight text-[#eef1f6] mb-6">
+            Narrative intelligence for the people who have to respond.
+          </h1>
+          <p className="fade-up fade-up-delay-3 text-lg text-[#8fa4be] leading-relaxed mb-10 max-w-2xl">
+            GenAtlix tracks how narratives cluster, spread, and resonate — in
+            real time, filtered to your district. Built for local campaigns that
+            need to know what their constituents actually care about, especially
+            young voters.
+          </p>
+          <div className="fade-up fade-up-delay-4 flex flex-col sm:flex-row gap-4">
+            <a
+              href="https://calendly.com/ericye530/30-minutes"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center px-6 py-3 bg-[#c8922a] hover:bg-[#d9a84a] text-[#05090f] font-medium text-sm transition-colors"
+            >
+              Request a Demo
+            </a>
           </div>
         </div>
-      </section>
 
-      <InvestorModal open={modalOpen} onClose={() => setModalOpen(false)} />
-    </>
+        {/* Dashboard mock */}
+        <div className="mt-20 fade-up fade-up-delay-4">
+          <DashboardMock />
+        </div>
+      </div>
+    </section>
   );
 }
 
@@ -81,7 +67,7 @@ function DashboardMock() {
         <div className="w-2.5 h-2.5 rounded-full bg-[#1e3054]" />
         <div className="w-2.5 h-2.5 rounded-full bg-[#1e3054]" />
         <span className="ml-4 text-xs font-mono text-[#4a6080]">
-          atlix / narrative-monitor / district-12
+          genatlix / narrative-monitor / district-12
         </span>
       </div>
       <div className="p-6 grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -92,10 +78,22 @@ function DashboardMock() {
           </p>
           <div className="space-y-2">
             {[
-              { label: "Border / immigration enforcement", heat: 91, delta: "+12%" },
-              { label: "Housing affordability, District 12", heat: 84, delta: "+7%" },
+              {
+                label: "Border / immigration enforcement",
+                heat: 91,
+                delta: "+12%",
+              },
+              {
+                label: "Housing affordability, District 12",
+                heat: 84,
+                delta: "+7%",
+              },
               { label: "Federal workforce reductions", heat: 72, delta: "+3%" },
-              { label: "Infrastructure spending delay", heat: 55, delta: "-2%" },
+              {
+                label: "Infrastructure spending delay",
+                heat: 55,
+                delta: "-2%",
+              },
               { label: "Public school funding cuts", heat: 43, delta: "-8%" },
             ].map((item) => (
               <div key={item.label} className="flex items-center gap-3">
@@ -105,7 +103,10 @@ function DashboardMock() {
                 <div className="w-32 h-1.5 bg-[#111d33] flex-shrink-0">
                   <div
                     className="h-full bg-[#c8922a] transition-all"
-                    style={{ width: `${item.heat}%`, opacity: item.heat / 100 + 0.3 }}
+                    style={{
+                      width: `${item.heat}%`,
+                      opacity: item.heat / 100 + 0.3,
+                    }}
                   />
                 </div>
                 <div
