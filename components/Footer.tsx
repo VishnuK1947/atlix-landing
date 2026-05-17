@@ -4,18 +4,18 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
         <div>
           <p className="text-sm font-semibold text-[#dde3ed]">GenAtlix</p>
-          <p className="text-xs text-[#4a6080] mt-1">
+          <p className="text-xs text-[#6e8fac] mt-1">
             Real-time narrative intelligence for institutional decision-makers.
           </p>
         </div>
         <div className="flex flex-col md:items-end gap-1">
           <a
             href="mailto:dhan6663@usc.edu"
-            className="text-xs text-[#4a6080] hover:text-[#8fa4be] transition-colors font-mono"
+            className="text-xs text-[#6e8fac] hover:text-[#8fa4be] transition-colors font-mono"
           >
             dhan6663@usc.edu
           </a>
-          <p className="text-xs text-[#344d68] font-mono">© 2026 GenAtlix</p>
+          <p className="text-xs text-[#6e8fac] font-mono">© 2026 GenAtlix</p>
         </div>
       </div>
     </footer>

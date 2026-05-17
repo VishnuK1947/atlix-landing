@@ -9,7 +9,7 @@ export default function CTABlock() {
         <h2 className="text-2xl font-semibold text-[#eef1f6] mb-2">
           Request a Demo
         </h2>
-        <p className="text-sm text-[#637da0] mb-8 leading-relaxed">
+        <p className="text-sm text-[#9bb5cc] mb-8 leading-relaxed">
           For local campaigns and political consultants. A 30-minute walkthrough
           tailored to your race and district.
         </p>

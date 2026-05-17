@@ -2,6 +2,7 @@ import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
 import Problem from "@/components/Problem";
 import Capabilities from "@/components/Capabilities";
+import Demo from "@/components/Demo";
 import PolicyWorkflows from "@/components/PolicyWorkflows";
 import WhoItsFor from "@/components/WhoItsFor";
 import Credibility from "@/components/Credibility";
@@ -15,6 +16,7 @@ export default function Home() {
       <Hero />
       <Problem />
       <Capabilities />
+      <Demo />
       <PolicyWorkflows />
       <WhoItsFor />
       <Credibility />

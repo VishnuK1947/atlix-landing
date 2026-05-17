@@ -1,18 +1,15 @@
 const audiences = [
   {
     label: "Local Candidates",
-    description:
-      "Know what your district is actually talking about before you set your platform. GenAtlix surfaces constituent sentiment in real time with a clear focus on the young voters who decide which way close races go.",
+    description: "Know what your district is talking about before you set your platform.",
   },
   {
     label: "Campaign Managers",
-    description:
-      "Stop guessing what will resonate. Get a daily read on the issues moving your target voters, mapped to the neighborhoods you need to win, with a lens on where young voter energy is concentrated.",
+    description: "Get a daily read on the issues moving your target voters, mapped to the neighborhoods you need to win.",
   },
   {
     label: "Political Consultants",
-    description:
-      "Run tighter campaigns for your clients with district-level intelligence on emerging issues, shifting sentiment, and what young constituents are actually talking about.",
+    description: "Run tighter campaigns with district-level intelligence on emerging issues and shifting sentiment.",
   },
 ];
 
