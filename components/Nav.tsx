@@ -31,7 +31,7 @@ export default function Nav() {
         />
         <div className="flex items-center gap-6">
           <a
-            href="https://calendly.com/ericye530/30-minutes?month=2026-05"
+            href="https://calendly.com/ericye530/30-minutes"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm border border-[#c8922a] text-[#c8922a] hover:bg-[#c8922a]/10 px-4 py-1.5 transition-colors"
