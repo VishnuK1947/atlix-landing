@@ -1,18 +1,15 @@
 const principles = [
   {
     title: "Insights, not just data.",
-    description:
-      "GenAtlix doesn't just show you what's happening, it tells you what it means for your campaign. Surface which issues are gaining momentum with young voters, how sentiment is shifting in your district, and where to focus your message next.",
+    description: "Surface which issues are gaining momentum with young voters and where to focus your message next.",
   },
   {
     title: "Geographic precision.",
-    description:
-      "Narratives filtered with geofencing by district, region, or country. Your field reps see the same geography you're monitoring.",
+    description: "Narratives filtered by district, region, or country so your field team sees exactly what you see.",
   },
   {
     title: "Bias-aware by design.",
-    description:
-      "Online discourse skews. GenAtlix is transparent about sample composition and provides comparative context, not just raw signal.",
+    description: "Transparent about sample composition — comparative context, not just raw signal.",
   },
 ];
 
@@ -36,7 +33,7 @@ export default function PolicyWorkflows() {
                 <h3 className="text-sm font-semibold text-[#dde3ed] mb-2">
                   {p.title}
                 </h3>
-                <p className="text-sm text-[#637da0] leading-relaxed">
+                <p className="text-sm text-[#9bb5cc] leading-relaxed">
                   {p.description}
                 </p>
               </div>

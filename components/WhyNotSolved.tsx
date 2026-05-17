@@ -21,7 +21,7 @@ export default function WhyNotSolved() {
     <section className="py-24 px-6 bg-[#0d1526] border-t border-[#1e3054]">
       <div className="max-w-6xl mx-auto">
         <div className="accent-line" />
-        <p className="text-xs uppercase tracking-[0.2em] text-[#4a6080] font-mono mb-4">
+        <p className="text-xs uppercase tracking-[0.2em] text-[#6e8fac] font-mono mb-4">
           The Landscape
         </p>
         <h2 className="text-2xl md:text-3xl font-semibold text-[#eef1f6] mb-4 leading-snug max-w-2xl">
@@ -38,7 +38,7 @@ export default function WhyNotSolved() {
               <p className="text-sm font-semibold text-[#dde3ed] mb-3">
                 {c.name}
               </p>
-              <p className="text-sm text-[#637da0] leading-relaxed">
+              <p className="text-sm text-[#9bb5cc] leading-relaxed">
                 {c.description}
               </p>
             </div>
