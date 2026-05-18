@@ -14,7 +14,7 @@ export default function CTABlock() {
           tailored to your race and district.
         </p>
         <a
-          href="https://calendly.com/ericye530/30-minutes?month=2026-05"
+          href="https://calendly.com/ericye530/30-minutes"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center justify-center w-full bg-[#c8922a] hover:bg-[#d9a84a] text-[#05090f] font-medium text-sm py-3 transition-colors"

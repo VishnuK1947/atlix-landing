@@ -48,7 +48,7 @@ export default function DemoModal() {
                 <div className="w-2.5 h-2.5 rounded-full bg-[#1e3054]" />
                 <div className="w-2.5 h-2.5 rounded-full bg-[#1e3054]" />
                 <span className="ml-4 text-xs font-mono text-[#4a6080]">
-                  genatlix / demo
+                  Atlix / demo
                 </span>
               </div>
               <button

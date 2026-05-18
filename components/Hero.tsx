@@ -30,9 +30,9 @@ export default function Hero() {
             Narrative intelligence for the people who have to respond.
           </h1>
           <p className="fade-up fade-up-delay-3 text-lg text-[#8fa4be] leading-relaxed mb-10 max-w-2xl">
-            GenAtlix tracks how narratives cluster, spread, and resonate — in
-            real time, filtered to your district. Built for local campaigns that
-            need to know what their constituents actually care about, especially
+            Atlix tracks how narratives cluster, spread, and resonate — in real
+            time, filtered to your district. Built for local campaigns that need
+            to know what their constituents actually care about, especially
             young voters.
           </p>
           <div className="fade-up fade-up-delay-4 flex flex-col sm:flex-row gap-4">
@@ -67,7 +67,7 @@ function DashboardMock() {
         <div className="w-2.5 h-2.5 rounded-full bg-[#1e3054]" />
         <div className="w-2.5 h-2.5 rounded-full bg-[#1e3054]" />
         <span className="ml-4 text-xs font-mono text-[#4a6080]">
-          genatlix / narrative-monitor / district-12
+          Atlix / narrative-monitor / district-12
         </span>
       </div>
       <div className="p-6 grid grid-cols-1 md:grid-cols-3 gap-6">
