@@ -23,7 +23,7 @@ export default function Nav() {
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         <Image
           src="/atlixlogo.png"
-          alt="GenAtlix"
+          alt="Atlix"
           width={96}
           height={32}
           className="h-7 w-auto object-contain"

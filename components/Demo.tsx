@@ -7,7 +7,7 @@ export default function Demo() {
           See It In Action
         </p>
         <h2 className="text-2xl md:text-3xl font-semibold text-[#eef1f6] mb-12 leading-snug max-w-xl">
-          Watch GenAtlix work.
+          Watch Atlix work.
         </h2>
         <div className="border border-[#1e3054] bg-[#080e1a] overflow-hidden">
           <div className="flex items-center gap-2 px-4 py-3 border-b border-[#1e3054]">
@@ -15,15 +15,10 @@ export default function Demo() {
             <div className="w-2.5 h-2.5 rounded-full bg-[#1e3054]" />
             <div className="w-2.5 h-2.5 rounded-full bg-[#1e3054]" />
             <span className="ml-4 text-xs font-mono text-[#6e8fac]">
-              genatlix / demo
+              Atlix / demo
             </span>
           </div>
-          <video
-            src="/atlixdemo.mp4"
-            controls
-            playsInline
-            className="w-full"
-          />
+          <video src="/atlixdemo.mp4" controls playsInline className="w-full" />
         </div>
       </div>
     </section>

@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="border-t border-[#1e3054] py-10 px-6">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
         <div>
-          <p className="text-sm font-semibold text-[#dde3ed]">GenAtlix</p>
+          <p className="text-sm font-semibold text-[#dde3ed]">Atlix</p>
           <p className="text-xs text-[#6e8fac] mt-1">
             Real-time narrative intelligence for institutional decision-makers.
           </p>
@@ -15,7 +15,7 @@ export default function Footer() {
           >
             dhan6663@usc.edu
           </a>
-          <p className="text-xs text-[#6e8fac] font-mono">© 2026 GenAtlix</p>
+          <p className="text-xs text-[#6e8fac] font-mono">© 2026 Atlix</p>
         </div>
       </div>
     </footer>
